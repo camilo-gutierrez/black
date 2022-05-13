@@ -1,0 +1,40 @@
+@mixin centerElement($direction:row){
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+@mixin flexContainer($direction:row,$gap:.5rem, $spacing:space-between, ){
+    display: flex;
+    justify-content:$spacing ; 
+    align-items:center;
+    gap: $gap;
+    flex-direction: $direction;
+}
+
+@mixin imageConfiguration(){
+    object-fit: cover;
+}
+
+@mixin mobile{
+    @media (max-width: 450px){
+        @content;
+    }
+}
+
+@mixin tablet{
+    @media (max-width:750px){
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width:800px){
+        @content;
+    }
+}
+
+@mixin fullwidth($size:'100%'){
+    width:$size;
+}

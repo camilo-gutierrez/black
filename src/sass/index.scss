@@ -1,0 +1,20 @@
+@import './variables.scss';
+@import './helper';
+@import '../components/addresses/atoms/buttons/styles/buttonsAddresses';
+@import '../components/addresses/atoms/header/styles/headerAddresses';
+@import '../components/addresses/atoms/inputs/styles/inputsAddresses';
+@import '../components/addresses/molecules/form/styles/formAddresses';
+@import '../components/addresses/objects/container/style/containerAddresses';
+@import '../components/orderSummary/atoms/buttons/styles/buttonsOrderSummary';
+@import '../components/orderSummary/atoms/header/styles/headerOrderSummary';
+@import '../components/orderSummary/atoms/product/style/productOrderSummary';
+@import '../components/orderSummary/molecules/price/styles/priceOrderSummary';
+@import '../components/orderSummary/molecules/productList/styles/productListOrderSummary';
+@import '../components/orderSummary/objects/container/styles/containerOrderSummary';
+@import '../components/styles/indexContainer';
+
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

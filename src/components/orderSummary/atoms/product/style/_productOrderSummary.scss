@@ -1,0 +1,27 @@
+.container-product-order-summary{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-bottom: .2px rgb(218, 216, 216) solid;
+}
+.container-image-product-order-summary{
+    margin: 5px;
+    margin-right: 10px ;
+}
+.image-product-order-summary{
+    height: 50px;
+    width: 50px; 
+}
+.container-name-product-order-summary{
+    text-align: left;
+    width: 60%;
+    font-size: 14px;
+    color: rgb(192, 190, 190);
+    margin: 5px;
+}
+.container-price-product-order-summary{
+    text-align: center;
+    margin: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
